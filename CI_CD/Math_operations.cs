@@ -20,7 +20,7 @@
             return Math.Pow(number, degree);
         }
 
-        //метод выполнения операции нахождения корня
+        //метод выполнения операции нахождения корня (не только квадратного)
         public double Root(double number, double degree)
         {
             if (number < 0 && degree % 2 == 0)
