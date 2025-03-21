@@ -2,7 +2,7 @@
 {
     public class MathOperation
     {
-        //метод выполнения операции 
+        //метод выполнения операции нахождения факториала
         public int Factorial(int n)
         {
             if (n < 0)
@@ -14,13 +14,13 @@
             return n * Factorial(n-1);
         }
 
-        //метод выполнения операции
+        //метод выполнения операции нахождения степени
         public double Power(double number, double degree)
         {
             return Math.Pow(number, degree);
         }
 
-        //метод выполнения операции
+        //метод выполнения операции нахождения корня
         public double Root(double number, double degree)
         {
             if (number < 0 && degree % 2 == 0)
@@ -30,7 +30,7 @@
             return Math.Pow(number, (1/degree));
         }
 
-        //метод выполнения операции
+        //метод выполнения операции нахождения логорифма
         public double Logarithm(double number, double footing)
         {
             if (number <= 0 || footing <= 0 || footing == 1)
